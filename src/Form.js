@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Form.css"
 
 
 
@@ -31,17 +32,17 @@ export const Form = () => {
         <div className="main">
             <div className="form-container">
                 <h1>Login</h1>
-                <div className="username">
-                    <input type="text" placeholder="username" onChange={usernameHandler} value={username}></input>
+                <div >
+                    <input type="text" placeholder="username" className="username" onChange={usernameHandler} value={username}></input>
                 </div>
-                <div className="password">
-                    <input type="text" placeholder="password" onChange={passwordHandler} value={password}></input>
+                <div >
+                    <input type="text" placeholder="password" className="password" onChange={passwordHandler} value={password}></input>
                 </div>
-                <div className="login">
-                    <button id="login" onClick={onSubmit}>Login</button>
+                <div >
+                    <button id="login" className="login" onClick={onSubmit}>login</button>
                 </div>
-                <div className="reset">
-                    <button id="reset" onClick={onReset}>Reset</button>
+                <div >
+                    <button id="reset" className="reset" onClick={onReset}>reset</button>
                 </div>
             </div>
 

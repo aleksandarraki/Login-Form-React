@@ -1,0 +1,65 @@
+.main {
+    margin: 30px auto;
+    width: 600px;
+    background-color: rgb(25, 171, 255);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.username {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(233, 229, 229);
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.password {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(233, 229, 229);
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.login {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(25, 171, 255);
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset {
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input:focus {
+    outline-color: rgb(32, 177, 255);
+}
